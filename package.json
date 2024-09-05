@@ -1,0 +1,23 @@
+{
+  "name": "bowena",
+  "version": "1.0.0",
+  "description": "childtheme of twentyseventeen for bowena.pl",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiDraEVE/bowena.pl.git"
+  },
+  "author": "chiDraEVE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiDraEVE/bowena.pl/issues"
+  },
+  "homepage": "https://github.com/chiDraEVE/bowena.pl#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^29.0.0"
+  }
+}
