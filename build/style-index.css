@@ -22,6 +22,51 @@ Use it to make something cool, have fun, and share what you've learned with othe
   background: rgba(235, 235, 235, 0.8);
 }
 
+.site-title {
+  font-family: "Old Standard TT", Georgia, serif;
+  font-weight: 400;
+  font-size: 120px;
+  letter-spacing: 0.08em;
+  text-transform: none;
+  color: #B40404;
+}
+
+.site-branding .wrap {
+  background-color: rgba(31, 72, 51, 0.5);
+  border-radius: 45px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 48em) {
+  .wrap {
+    max-width: 1000px;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+}
+.custom-logo {
+  border-radius: 60px;
+}
+
+.site-description {
+  color: #666;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  margin-bottom: 0;
+}
+
+.site-description {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
 .ats-align-left {
   text-align: left;
 }
@@ -86,12 +131,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
     width: 100% !important;
   }
 }
-.site-branding .wrap {
-  background-color: rgba(31, 72, 51, 0.5);
-  border-radius: 45px;
-  padding-bottom: 20px;
-}
-
 .certa .certa_duza {
   opacity: 1;
   color: rgba(91, 141, 13, 0.25);
