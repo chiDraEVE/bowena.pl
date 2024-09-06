@@ -29,7 +29,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
   letter-spacing: 0.08em;
   text-transform: capitalize;
 }
-.has-header-image .site-title {
+body.has-header-image .site-title a {
   color: #840404;
 }
 
