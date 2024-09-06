@@ -42,13 +42,8 @@
   font-size: 13px;
   font-size: 0.8125rem;
   margin-bottom: 0;
-
-  body.has-header-image p.& {
-    color: #840404;
-  }
 }
 
-.site-description {
-  font-size: 16px;
-  font-size: 1rem;
+body.has-header-image p.site-description {
+  color: #840404;
 }
