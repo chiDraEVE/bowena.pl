@@ -27,8 +27,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
   font-weight: 400;
   font-size: 120px;
   letter-spacing: 0.08em;
-  text-transform: none;
-  color: #B40404;
+  text-transform: capitalize;
+}
+.has-header-image .site-title {
+  color: #840404;
 }
 
 .site-branding .wrap {
@@ -37,11 +39,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
   padding-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 700px;
   padding-right: 2em;
   padding-left: 2em;
   font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
   font-weight: 500;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (min-width: 48em) {
