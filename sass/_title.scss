@@ -1,7 +1,7 @@
 .site-title {
   font-family: "Old Standard TT", Georgia, serif;
   font-weight: 400;
-  font-size: 120px;
+  font-size: clamp(3rem, 8vw, 8rem);
   letter-spacing: 0.08em;
   text-transform: capitalize;
 
@@ -13,17 +13,19 @@
 .site-branding .wrap {
   background-color: rgba(31, 72, 51, 0.5);
   border-radius: 45px;
-  padding-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding: 1rem 2em;
 
   font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
   font-weight: 500;
 
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
 }
 
 @media screen and (min-width: 48em) {
@@ -35,11 +37,15 @@
 }
 
 .custom-logo {
+  position: relative;
   border-radius: 60px;
+  width: auto;
+  min-height: 8rem;
 }
 
 .site-description {
-  font-size: 13px;
+  font-size: 1rem;
+  font-weight: bold;
   font-size: 0.8125rem;
   margin-bottom: 0;
 }

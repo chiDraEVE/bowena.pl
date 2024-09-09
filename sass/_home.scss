@@ -1,0 +1,152 @@
+.lade_ein{
+  font-size:16px;
+  font-family: "Libre Franklin", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing:2px;
+  padding-top: 30px;
+  padding-left: 25px;
+}
+
+#ikona{
+  font-size: 24px;
+  color: #6fb00e;
+  opacity: 0.4;
+  padding-top: 80px
+}
+
+.certa {
+  padding-top: 50px;
+  display: flex;
+  float: right;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  font-weight: 400;
+}
+
+hr {
+  width: 30%;
+  height: 1px;
+  margin: 50px auto 10px auto;
+  color: green;
+  background: green;
+}
+
+.certa_duza{
+  font-weight: bold;
+  font-size: 70px;
+  color: #6fb00e;
+  position:relative;
+  left:18%;
+  padding-left: 0;
+  opacity:0.2;
+}
+.certa_mala{
+  font-family: "Old Standard TT", serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: green;
+  position: relative;
+  left:18%;
+  padding-left: 80px;
+}
+
+.btn_oferuje{
+  background-color: #E3F6CE;
+  width: 200px;
+  color: green;
+  position:relative;
+  margin-top: 0px;
+  font-weight: 100;
+  border-radius: 10px;
+}
+
+.bildmitbildunterschrift {
+  position: relative;
+  margin-top: -100px;
+}
+
+.bildmitbildunterschrift p{
+  color: #0B610B;
+  position: absolute;
+  top: 10px;
+  width:45%;
+  padding: 20px 30px 0px 20px;
+  font-family: "Gabriela", cursive;
+  font-size: 23px;
+  font-style:italic;
+  font-weight: 100;
+}
+
+.bildmitbildunterschrift img {
+  display: block;
+}
+
+@media screen and (max-width: 480px) {
+  .bildmitbildunterschrift {
+    position: relative;
+    margin-top: 0;
+  }
+
+  .bildmitbildunterschrift p {
+    display: flex;
+    color:#0B610B;
+    position: relative;
+    padding-top: 0;
+    width:100%;
+    font-family: "Gabriela", cursive;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 100;
+  }
+
+  .bildmitbildunterschrift img {
+    display: block;
+  }
+
+  .certa {
+    padding-top:50px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    font-weight: 400;
+  }
+
+  .certa_duza{
+    font-size:52px;
+    position:relative;
+    left: 0;
+  }
+}
+
+.certa_mala{
+  font-size: 35px;
+  padding-left: 0;
+}
+
+.certa span{
+  pading-left: 0px;
+  padding-right: 20px;
+}
+
+.btn_oferuje{
+  position: relative;
+  left: 10%;
+}
+
+.btn {
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  font-size: 20px;
+  background: #6fb00e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}

@@ -1,3 +1,49 @@
+/*!*************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./icon-font/style.css ***!
+  \*************************************************************************************************************************************************************************/
+@font-face {
+  font-family: 'icomoon';
+  src:  url(fonts/icomoon.7faf892b.eot);
+  src:  url(fonts/icomoon.7faf892b.eot#iefix) format('embedded-opentype'),
+    url(fonts/icomoon.ecc3f328.ttf) format('truetype'),
+    url(fonts/icomoon.c3a9bf05.woff) format('woff'),
+    url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiID4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8bWV0YWRhdGE+R2VuZXJhdGVkIGJ5IEljb01vb248L21ldGFkYXRhPgo8ZGVmcz4KPGZvbnQgaWQ9Imljb21vb24iIGhvcml6LWFkdi14PSIxMDI0Ij4KPGZvbnQtZmFjZSB1bml0cy1wZXItZW09IjEwMjQiIGFzY2VudD0iOTYwIiBkZXNjZW50PSItNjQiIC8+CjxtaXNzaW5nLWdseXBoIGhvcml6LWFkdi14PSIxMDI0IiAvPgo8Z2x5cGggdW5pY29kZT0iJiN4MjA7IiBob3Jpei1hZHYteD0iNTEyIiBkPSIiIC8+CjxnbHlwaCB1bmljb2RlPSImI3hlOTA3OyIgZ2x5cGgtbmFtZT0icXVpbGwiIGQ9Ik0wLTY0YzEyOCAzODQgNDYzIDEwMjQgMTAyNCAxMDI0LTI2My0yMTEtMzg0LTcwNC01NzYtNzA0cy0xOTIgMC0xOTIgMGwtMTkyLTMyMGgtNjR6IiAvPgo8Z2x5cGggdW5pY29kZT0iJiN4ZTk0YTsiIGdseXBoLW5hbWU9ImNvbXBhc3MyIiBkPSJNNTEyIDk2MGMtMjgyLjc3IDAtNTEyLTIyOS4yMy01MTItNTEyczIyOS4yMy01MTIgNTEyLTUxMiA1MTIgMjI5LjIzIDUxMiA1MTItMjI5LjIzIDUxMi01MTIgNTEyek05NiA0NDhjMCAyMjkuNzUgMTg2LjI1IDQxNiA0MTYgNDE2IDEwOS41NzQgMCAyMDkuMjMyLTQyLjM4NiAyODMuNTM0LTExMS42MjhsLTQxMS41MzQtMTc2LjM3Mi0xNzYuMzcyLTQxMS41MzRjLTY5LjI0MiA3NC4zMDItMTExLjYyOCAxNzMuOTYtMTExLjYyOCAyODMuNTM0ek01ODUuMTY2IDM3NC44MzRsLTI1Ni4wODItMTA5Ljc1IDEwOS43NSAyNTYuMDgyIDE0Ni4zMzItMTQ2LjMzMnpNNTEyIDMyYy0xMDkuNTc0IDAtMjA5LjIzNCA0Mi4zODYtMjgzLjUzMiAxMTEuNjI4bDQxMS41MzIgMTc2LjM3MiAxNzYuMzcyIDQxMS41MzJjNjkuMjQyLTc0LjI5OCAxMTEuNjI4LTE3My45NTggMTExLjYyOC0yODMuNTMyIDAtMjI5Ljc1LTE4Ni4yNS00MTYtNDE2LTQxNnoiIC8+CjxnbHlwaCB1bmljb2RlPSImI3hlOTcyOyIgZ2x5cGgtbmFtZT0idXNlcnMiIGhvcml6LWFkdi14PSIxMTUyIiBkPSJNNzY4IDE4OS4zODh2NTIuNzhjNzAuNDk4IDM5LjcyOCAxMjggMTM4Ljc3MiAxMjggMjM3LjgzMiAwIDE1OS4wNTggMCAyODgtMTkyIDI4OHMtMTkyLTEyOC45NDItMTkyLTI4OGMwLTk5LjA2MCA1Ny41MDItMTk4LjEwNCAxMjgtMjM3LjgzMnYtNTIuNzhjLTIxNy4xMDItMTcuNzQ4LTM4NC0xMjQuNDItMzg0LTI1My4zODhoODk2YzAgMTI4Ljk2OC0xNjYuODk4IDIzNS42NC0zODQgMjUzLjM4OHpNMzI3LjE5NiAxNjQuNjcyYzU1LjMxIDM2LjE1IDEyNC4wODAgNjMuNjM2IDE5OS43ODggODAuNDE0LTE1LjA1NCAxNy43ODQtMjguNzA4IDM3LjYyMi00MC40OTIgNTkuMDIwLTMwLjQxNCA1NS4yMzQtNDYuNDkyIDExNi4wNTgtNDYuNDkyIDE3NS44OTQgMCA4Ni4wNDIgMCAxNjcuMzEgMzAuNiAyMzMuNzYyIDI5LjcwNiA2NC41MDQgODMuMTI4IDEwNC40OTYgMTU5LjIyMiAxMTkuNDg4LTE2LjkxNCA3Ni40OC02MS45NCAxMjYuNzUtMTgxLjgyMiAxMjYuNzUtMTkyIDAtMTkyLTEyOC45NDItMTkyLTI4OCAwLTk5LjA2MCA1Ny41MDItMTk4LjEwNCAxMjgtMjM3LjgzMnYtNTIuNzhjLTIxNy4xMDItMTcuNzQ4LTM4NC0xMjQuNDItMzg0LTI1My4zODhoMjc5LjAwNmMxNC41MTggMTIuOTEgMzAuNTk2IDI1LjE3MiA0OC4xOSAzNi42NzJ6IiAvPgo8Z2x5cGggdW5pY29kZT0iJiN4ZTlhNDsiIGdseXBoLW5hbWU9ImxlYWYiIGQ9Ik0xMDExLjMyOCA4MjUuNTA0Yy0xMTAuNzUyIDgzLjkyOC0yODEuMTg0IDEzNC4wMzQtNDU1LjkxIDEzNC4wMzQtMjE2LjEyIDAtMzkyLjIyNi03NS40NTYtNDgzLjE2LTIwNy4wMjAtNDIuNzA4LTYxLjc5LTY2LjMzLTEzNC45NTgtNzAuMjA4LTIxNy40NzQtMy40NTQtNzMuNDc0IDguODg0LTE1NC43MjYgMzYuNjg0LTI0Mi4xNDYgOTQuODc0IDI4NC4zODQgMzU5LjgyIDUwNy4xMDIgNjY1LjI2NiA1MDcuMTAyIDAgMC0yODUuODI2LTc1LjIzMi00NjUuNTI0LTMwOC4xOTItMC4xMTItMC4xMzgtMi40OTQtMy4wOTAtNi42MTQtOC42OTgtMzYuMDgwLTQ4LjI3OC02Ny41MzgtMTAzLjE2Mi05MS4wNzgtMTY1LjMyOC0zOS44Ny05NC44My03Ni43ODQtMjI0Ljk0OC03Ni43ODQtMzgxLjc4MmgxMjhjMCAwLTE5LjQzIDEyMi4yMjIgMTQuMzYgMjYyLjc5IDU1Ljg5LTcuNTU2IDEwNS44NTgtMTEuMzA2IDE1MC44NTItMTEuMzA2IDExNy42NzggMCAyMDEuMzcgMjUuNDYgMjYzLjM4OCA4MC4xMjQgNTUuNTY4IDQ4Ljk3OCA4Ni4xOTggMTE0Ljc4NiAxMTguNjI0IDE4NC40NTYgNDkuNTI0IDEwNi40MDggMTA1LjY1NCAyMjcuMDEwIDI2OC42NTQgMzIwLjE1MiA5LjMzIDUuMzMyIDE1LjM2MiAxNC45OTIgMTYuMDU2IDI1LjcxNnMtNC4wNDAgMjEuMDgwLTEyLjYwNiAyNy41NzJ6IiAvPgo8Z2x5cGggdW5pY29kZT0iJiN4ZTlkYzsiIGdseXBoLW5hbWU9Im1hbiIgZD0iTTU3NiA4NjRjMC01My4wMTktNDIuOTgxLTk2LTk2LTk2cy05NiA0Mi45ODEtOTYgOTZjMCA1My4wMTkgNDIuOTgxIDk2IDk2IDk2czk2LTQyLjk4MSA5Ni05NnpNNTc2IDcwNGgtMTkyYy0zNS4zNDYgMC02NC0yOC42NTQtNjQtNjR2LTMyMGg2NHYtMzg0aDgwdjM4NGgzMnYtMzg0aDgwdjM4NGg2NHYzMjBjMCAzNS4zNDYtMjguNjUyIDY0LTY0IDY0eiIgLz4KPC9mb250PjwvZGVmcz48L3N2Zz4=#icomoon) format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-quill:before {
+  content: "\e907";
+}
+.icon-compass2:before {
+  content: "\e94a";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-leaf:before {
+  content: "\e9a4";
+}
+.icon-man:before {
+  content: "\e9dc";
+}
+
 /*!****************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./sass/style.scss ***!
   \****************************************************************************************************************************************************************************************************************************************/
@@ -18,6 +64,153 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
 */
+.lade_ein {
+  font-size: 16px;
+  font-family: "Libre Franklin", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 30px;
+  padding-left: 25px;
+}
+
+#ikona {
+  font-size: 24px;
+  color: #6fb00e;
+  opacity: 0.4;
+  padding-top: 80px;
+}
+
+.certa {
+  padding-top: 50px;
+  display: flex;
+  float: right;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  font-weight: 400;
+}
+
+hr {
+  width: 30%;
+  height: 1px;
+  margin: 50px auto 10px auto;
+  color: green;
+  background: green;
+}
+
+.certa_duza {
+  font-weight: bold;
+  font-size: 70px;
+  color: #6fb00e;
+  position: relative;
+  left: 18%;
+  padding-left: 0;
+  opacity: 0.2;
+}
+
+.certa_mala {
+  font-family: "Old Standard TT", serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: green;
+  position: relative;
+  left: 18%;
+  padding-left: 80px;
+}
+
+.btn_oferuje {
+  background-color: #E3F6CE;
+  width: 200px;
+  color: green;
+  position: relative;
+  margin-top: 0px;
+  font-weight: 100;
+  border-radius: 10px;
+}
+
+.bildmitbildunterschrift {
+  position: relative;
+  margin-top: -100px;
+}
+
+.bildmitbildunterschrift p {
+  color: #0B610B;
+  position: absolute;
+  top: 10px;
+  width: 45%;
+  padding: 20px 30px 0px 20px;
+  font-family: "Gabriela", cursive;
+  font-size: 23px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.bildmitbildunterschrift img {
+  display: block;
+}
+
+@media screen and (max-width: 480px) {
+  .bildmitbildunterschrift {
+    position: relative;
+    margin-top: 0;
+  }
+  .bildmitbildunterschrift p {
+    display: flex;
+    color: #0B610B;
+    position: relative;
+    padding-top: 0;
+    width: 100%;
+    font-family: "Gabriela", cursive;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 100;
+  }
+  .bildmitbildunterschrift img {
+    display: block;
+  }
+  .certa {
+    padding-top: 50px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    font-weight: 400;
+  }
+  .certa_duza {
+    font-size: 52px;
+    position: relative;
+    left: 0;
+  }
+}
+.certa_mala {
+  font-size: 35px;
+  padding-left: 0;
+}
+
+.certa span {
+  pading-left: 0px;
+  padding-right: 20px;
+}
+
+.btn_oferuje {
+  position: relative;
+  left: 10%;
+}
+
+.btn {
+  border-radius: 28px;
+  font-size: 20px;
+  background: #6fb00e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
 .navigation-top {
   background: rgba(235, 235, 235, 0.8);
 }
@@ -25,7 +218,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .site-title {
   font-family: "Old Standard TT", Georgia, serif;
   font-weight: 400;
-  font-size: 120px;
+  font-size: clamp(3rem, 8vw, 8rem);
   letter-spacing: 0.08em;
   text-transform: capitalize;
 }
@@ -36,15 +229,16 @@ body.has-header-image .site-title a {
 .site-branding .wrap {
   background-color: rgba(31, 72, 51, 0.5);
   border-radius: 45px;
-  padding-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding: 1rem 2em;
   font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
   font-weight: 500;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
 }
 
 @media screen and (min-width: 48em) {
@@ -55,11 +249,15 @@ body.has-header-image .site-title a {
   }
 }
 .custom-logo {
+  position: relative;
   border-radius: 60px;
+  width: auto;
+  min-height: 8rem;
 }
 
 .site-description {
-  font-size: 13px;
+  font-size: 1rem;
+  font-weight: bold;
   font-size: 0.8125rem;
   margin-bottom: 0;
 }
