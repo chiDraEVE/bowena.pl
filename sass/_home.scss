@@ -17,6 +17,7 @@
 .certa {
   padding-top: 50px;
   display: flex;
+  flex-direction: column;
   float: right;
   align-items: flex-start;
   justify-content: flex-start;
@@ -92,10 +93,11 @@ hr {
 
   .bildmitbildunterschrift p {
     display: flex;
-    color:#0B610B;
+    color: #0B610B;
+    background-color: rgba(255, 255, 255, 0.2);
     position: relative;
     padding-top: 0;
-    width:100%;
+    width: 100%;
     font-family: "Gabriela", cursive;
     font-size: 23px;
     font-style: italic;
@@ -149,4 +151,8 @@ hr {
 
 .btn:hover {
   text-decoration: none;
+}
+
+body.home header.entry-header {
+  display: none;
 }

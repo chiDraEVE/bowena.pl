@@ -83,6 +83,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .certa {
   padding-top: 50px;
   display: flex;
+  flex-direction: column;
   float: left;
   align-items: flex-start;
   justify-content: flex-start;
@@ -159,6 +160,7 @@ hr {
   .bildmitbildunterschrift p {
     display: flex;
     color: #0B610B;
+    background-color: rgba(255, 255, 255, 0.2);
     position: relative;
     padding-top: 0;
     width: 100%;
@@ -211,6 +213,10 @@ hr {
   text-decoration: none;
 }
 
+body.home header.entry-header {
+  display: none;
+}
+
 .navigation-top {
   background: rgba(235, 235, 235, 0.8);
 }
@@ -256,14 +262,14 @@ body.has-header-image .site-title a {
 }
 
 .site-description {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  font-size: 0.8125rem;
   margin-bottom: 0;
 }
 
 body.has-header-image p.site-description {
-  color: #840404;
+  color: #eeeadd;
+  text-shadow: -2px 2px 4px rgba(132, 4, 4, 0.8);
 }
 
 .ats-align-left {

@@ -44,12 +44,12 @@
 }
 
 .site-description {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  font-size: 0.8125rem;
   margin-bottom: 0;
 }
 
 body.has-header-image p.site-description {
-  color: #840404;
+  color: #eeeadd;
+  text-shadow: 2px 2px 4px rgba(132, 4, 4, 0.8);
 }
