@@ -1,0 +1,87 @@
+#breitenstellung{
+  margin-left:-280px; margin-right:-280px; background-color: transparent;
+  display: flex;
+}
+.titelposition{
+  margin-top:-125px;
+}
+.offert {
+  padding:25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  font-size: 14px;
+  font-weight: 200;
+}
+.podpis{
+  font-size: 18px;
+  color: #8A0829;
+  font-style: normal;
+  font-weight: 100;
+  padding: 15px 0px 0px 15px;
+}
+hr {
+  width: 30%;
+  height: 1px;
+  bottom: 0px;
+  color: #6fb00e;
+  background: #6fb00e;
+}
+.samochod{
+  position: relative; left:20%;
+}
+.sprungposition {
+  position: absolute;
+  left: 0px;
+  top: -50px;
+  width: 0px;
+  height: 0px;
+  overflow:;
+  display: inline;
+}
+</style>
+<style>
+ button{
+   position: absolute;
+   left: 45%;
+   width: 225px;
+   height: 55px;
+ }
+@media screen and (max-width: 480px) {
+  #breitenstellung{
+    margin-left: auto; margin-right: auto; background-color: transparent;
+    display: block;
+  }
+  .titelposition{
+    margin-top:0px;
+  }
+  .offert{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    font-weight: 200;
+    padding:25px 20px 0px 0px;
+  }
+  .samochod{
+    position: relative; left:0%; padding: 25px 0px 35px 0px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  #breitenstellung{
+    margin-left: auto; margin-right: auto; background-color: transparent;
+    display: inline;
+  }
+  .titelposition{
+    margin-top:0px;
+  }
+  .offert {
+    width: 400px;
+    font-size: 14px;
+    font-weight: 200;
+    padding:25px 20px 0px 0px;
+  }
+  .samochod{
+    position: flex; left:; padding: 25px 0px 35px 0px;
+  }
+}

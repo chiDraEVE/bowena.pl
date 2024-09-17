@@ -47,6 +47,7 @@
 /*!****************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./sass/style.scss ***!
   \****************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
 /*
 Theme Name: Advanced Twenty Seventeen Child
 Theme URI: https://clubitsolutions.de
@@ -73,24 +74,32 @@ Use it to make something cool, have fun, and share what you've learned with othe
   padding-right: 25px;
 }
 
-#ikona {
+.ikona {
   font-size: 24px;
   color: #6fb00e;
   opacity: 0.4;
   padding-top: 80px;
 }
 
-.certa {
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  float: left;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 600px;
-  font-weight: 400;
+.certa h4 {
+  position: relative;
+  font-size: 2em; /* Schriftgröße nach Wunsch anpassen */
+  color: #6fb00e;
+}
+.certa h4::before, .certa h4::after {
+  content: attr(data-text); /* Inhalt gleich dem ursprünglichen Text */
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1; /* Hinter den echten Text setzen */
+}
+.certa h4::before {
+  color: green; /* Farbe für den ersten Schatten */
+  transform: translate(-2px, 2px); /* Verschiebung für den ersten Schatten */
+}
+.certa h4::after {
+  color: greenyellow; /* Farbe für den zweiten Schatten */
+  transform: translate(2px, -2px); /* Verschiebung für den zweiten Schatten */
 }
 
 hr {
@@ -101,32 +110,12 @@ hr {
   background: green;
 }
 
-.certa_duza {
-  font-weight: bold;
-  font-size: 70px;
-  color: #6fb00e;
-  position: relative;
-  right: 18%;
-  padding-right: 0;
-  opacity: 0.2;
-}
-
-.certa_mala {
-  font-family: "Old Standard TT", serif;
-  font-weight: bold;
-  font-size: 40px;
-  color: green;
-  position: relative;
-  right: 18%;
-  padding-right: 80px;
-}
-
 .btn_oferuje {
   background-color: #E3F6CE;
   width: 200px;
   color: green;
   position: relative;
-  margin-top: 0px;
+  margin-top: 0;
   font-weight: 100;
   border-radius: 10px;
 }
@@ -141,7 +130,7 @@ hr {
   position: absolute;
   top: 10px;
   width: 45%;
-  padding: 20px 20px 0px 30px;
+  padding: 20px 20px 0 30px;
   font-family: "Gabriela", cursive;
   font-size: 23px;
   font-style: italic;
