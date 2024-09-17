@@ -21,23 +21,29 @@
   z-index: 2;
   text-align: center;
 
+  /* Der eigentliche Text sollte mittig zentriert sein */
+  display: inline-block;
+  transform: translateX(-50%);
+  left: 50%;
+
   &::before,
   &::after {
     content: attr(data-text); /* Inhalt gleich dem ursprünglichen Text */
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Zentriert auf beiden Achsen */
     z-index: 1; /* Hinter den echten Text setzen */
   }
 
   &::before {
     color: green; /* Farbe für den ersten Schatten */
-    transform: translate(2px, 2px); /* Verschiebung für den ersten Schatten */
+    transform: translate(-50%, -50%) translate(2px, 2px); /* Verschiebung für den ersten Schatten */
   }
 
   &::after {
     color: greenyellow; /* Farbe für den zweiten Schatten */
-    transform: translate(-2px, -2px); /* Verschiebung für den zweiten Schatten */
+    transform: translate(-50%, -50%) translate(-2px, -2px); /* Verschiebung für den zweiten Schatten */
   }
 }
 
