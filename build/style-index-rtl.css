@@ -73,8 +73,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
   font-family: "Libre Franklin", Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  justify-content: center;
-  align-items: start;
+  justify-items: start;
+  align-items: center;
   text-align: right;
 }
 .lade_ein span {
