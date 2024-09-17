@@ -85,13 +85,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
   position: relative;
   font-size: 2em; /* Schriftgröße nach Wunsch anpassen */
   color: #6fb00e;
+  z-index: 2;
+  text-align: center;
 }
 .certa h4::before, .certa h4::after {
   content: attr(data-text); /* Inhalt gleich dem ursprünglichen Text */
   position: absolute;
   top: 0;
   right: 0;
-  z-index: -1; /* Hinter den echten Text setzen */
+  z-index: 1; /* Hinter den echten Text setzen */
 }
 .certa h4::before {
   color: green; /* Farbe für den ersten Schatten */

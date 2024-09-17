@@ -18,6 +18,8 @@
   position: relative;
   font-size: 2em; /* Schriftgröße nach Wunsch anpassen */
   color: #6fb00e;
+  z-index: 2;
+  text-align: center;
 
   &::before,
   &::after {
@@ -25,7 +27,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1; /* Hinter den echten Text setzen */
+    z-index: 1; /* Hinter den echten Text setzen */
   }
 
   &::before {
