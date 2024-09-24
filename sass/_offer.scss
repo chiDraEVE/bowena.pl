@@ -100,9 +100,26 @@
   background-color: transparent;
   display: flex;
 }
-.titelposition{
-  margin-top:-125px;
+h2.titelposition {
+  margin-top: -125px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #6e6e6e;
 }
+
+h5.untertitel {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 14px;
+  color: #6e6e6e;
+}
+
+.kursiv {
+  font-style: italic;
+}
+
 .offert {
   padding:25px;
   margin-left: auto;
@@ -130,15 +147,14 @@ hr {
 }
 .sprungposition {
   position: absolute;
-  left: 0px;
+  left: 0;
   top: -50px;
-  width: 0px;
-  height: 0px;
+  width: 0;
+  height: 0;
   overflow: hidden;
   display: inline;
 }
-</style>
-<style>
+
  button{
    position: absolute;
    left: 45%;
@@ -147,11 +163,13 @@ hr {
  }
 @media screen and (max-width: 480px) {
   #breitenstellung{
-    margin-left: auto; margin-right: auto; background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
     display: block;
   }
-  .titelposition{
-    margin-top:0px;
+  h2.titelposition{
+    margin-top:0;
   }
   .offert{
     width: 300px;
@@ -170,8 +188,8 @@ hr {
     margin-left: auto; margin-right: auto; background-color: transparent;
     display: inline;
   }
-  .titelposition{
-    margin-top:0px;
+  h2.titelposition{
+    margin-top:0;
   }
   .offert {
     width: 400px;
@@ -180,7 +198,8 @@ hr {
     padding:25px 20px 0px 0px;
   }
   .samochod{
-    position: relative; left:0;
+    position: relative;
+    left: 0;
     padding: 25px 0 35px 0;
   }
 }
