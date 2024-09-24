@@ -177,15 +177,19 @@ hr {
     margin-right: auto;
     font-size: 12px;
     font-weight: 200;
-    padding:25px 20px 0px 0px;
+    padding:25px 20px 0 0;
   }
   .samochod{
-    position: relative; left:0%; padding: 25px 0px 35px 0px;
+    position: relative;
+    left:0;
+    padding: 25px 0 35px 0;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 900px) {
   #breitenstellung{
-    margin-left: auto; margin-right: auto; background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
     display: inline;
   }
   h2.titelposition{
@@ -195,7 +199,7 @@ hr {
     width: 400px;
     font-size: 14px;
     font-weight: 200;
-    padding:25px 20px 0px 0px;
+    padding:25px 20px 0 0;
   }
   .samochod{
     position: relative;
